@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "kis-api-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "packages.mcp-servers.kis-api-mcp.src.server"
+      ]
+    },
+    "fundamental-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "packages.mcp-servers.fundamental-mcp.src.server"
+      ]
+    },
+    "news-sentiment-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "packages.mcp-servers.news-sentiment-mcp.src.server"
+      ]
+    },
+    "magazine-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "packages.mcp-servers.magazine-mcp.src.server"
+      ]
+    },
+    "macro-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "packages.mcp-servers.macro-mcp.src.server"
+      ]
+    }
+  }
+}

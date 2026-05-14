@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# 환경 변수 / 비밀
+.env
+.env.local
+*.pem
+*.key
+
+# 데이터 및 모델
+data/backtest/*
+!data/backtest/.gitkeep
+data/models/*
+!data/models/.gitkeep
+
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+.pnpm-store/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 로그
+logs/
+*.log
