@@ -1,10 +1,10 @@
-# KenventHaus
+# KenvestHaus
 
 주식 종목 추천 및 자동매매 시스템. 하이브리드 아키텍처(MCP + 마이크로서비스)와 모노레포 구조로 구성됩니다.
 
 ## 핵심 컨셉
 
-KenventHaus는 단기(단타)부터 중기(스윙) 투자까지 모두 지원하는 AI 기반 트레이딩 어시스턴트입니다. 차트/수급 분석, 베이지안 신뢰도 산출, Lopez de Prado의 Triple-Barrier 청산 로직, 글로벌 매크로 동조화 분석 등 다양한 계량 금융 기법을 종합하여 매매 시그널을 생성하고, 사용자의 한국투자증권 계좌를 통해 실제 자동매매를 실행합니다.
+KenvestHaus는 단기(단타)부터 중기(스윙) 투자까지 모두 지원하는 AI 기반 트레이딩 어시스턴트입니다. 차트/수급 분석, 베이지안 신뢰도 산출, Lopez de Prado의 Triple-Barrier 청산 로직, 글로벌 매크로 동조화 분석 등 다양한 계량 금융 기법을 종합하여 매매 시그널을 생성하고, 사용자의 한국투자증권 계좌를 통해 실제 자동매매를 실행합니다.
 
 ## 시스템 구성
 
@@ -57,7 +57,7 @@ KIS_IS_PAPER=true
 DART_API_KEY=
 
 # 데이터베이스
-POSTGRES_URL=postgresql+asyncpg://kenvent:kenvent@localhost:5432/kenventhaus
+POSTGRES_URL=postgresql+asyncpg://kenvest:kenvest@localhost:5432/kenvesthaus
 INFLUX_URL=http://localhost:8086
 
 # 텔레그램
@@ -78,7 +78,7 @@ python -m pytest packages/core-engine/tests/ -v
 
 이 프로젝트는 Cursor AI Pair Programming 환경에 최적화되어 있습니다.
 
-`.cursorrules` 파일에 프로젝트 아키텍처 원칙과 코딩 규칙이 정의되어 있어 Cursor AI가 일관된 코드를 생성합니다. 또한 `.cursor/mcp.json` 에 KenventHaus MCP 서버들이 등록되어 있어, Cursor 채팅에서 직접 시세 조회, 매거진 생성 등의 도구를 호출할 수 있습니다.
+`.cursorrules` 파일에 프로젝트 아키텍처 원칙과 코딩 규칙이 정의되어 있어 Cursor AI가 일관된 코드를 생성합니다. 또한 `.cursor/mcp.json` 에 KenvestHaus MCP 서버들이 등록되어 있어, Cursor 채팅에서 직접 시세 조회, 매거진 생성 등의 도구를 호출할 수 있습니다.
 
 ## 개발 단계 (Roadmap)
 

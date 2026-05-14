@@ -29,7 +29,7 @@ KIS_BASE_URL=https://openapivts.koreainvestment.com:29443
 ## 실행 방법
 
 ```bash
-cd /path/to/KenventHaus
+cd /path/to/KenvestHaus
 pip install -r packages/mcp-servers/kis-api-mcp/requirements.txt
 python -m packages.mcp-servers.kis-api-mcp.src.server
 ```

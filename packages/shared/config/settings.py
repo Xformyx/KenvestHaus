@@ -47,12 +47,12 @@ class Settings(BaseSettings):
 
     # === 데이터베이스 ===
     postgres_url: str = Field(
-        "postgresql+asyncpg://kenvent:kenvent@localhost:5432/kenventhaus",
+        "postgresql+asyncpg://kenvest:kenvest@localhost:5432/kenvesthaus",
         description="PostgreSQL 메타데이터 DB",
     )
     influx_url: str = Field("http://localhost:8086", description="InfluxDB URL")
     influx_token: Optional[str] = None
-    influx_org: str = "kenventhaus"
+    influx_org: str = "kenvesthaus"
     influx_bucket: str = "market_data"
     redis_url: str = "redis://localhost:6379/0"
 

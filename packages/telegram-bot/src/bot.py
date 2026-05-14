@@ -1,4 +1,4 @@
-"""KenventHaus 텔레그램 봇.
+"""KenvestHaus 텔레그램 봇.
 
 매매 시그널을 사용자에게 전달하는 봇입니다. 시그널 발생 시 core-engine 또는
 mcp-servers/magazine-mcp 에서 호출하여 메시지를 발송합니다.
@@ -67,7 +67,7 @@ class TelegramBot:
 async def main() -> None:
     logging.basicConfig(level=logging.INFO)
     bot = TelegramBot()
-    await bot.send("✅ KenventHaus 텔레그램 봇이 정상적으로 시작되었습니다.")
+    await bot.send("✅ KenvestHaus 텔레그램 봇이 정상적으로 시작되었습니다.")
     await bot.close()
 
 

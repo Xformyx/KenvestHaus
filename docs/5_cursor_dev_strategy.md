@@ -14,10 +14,10 @@ Cursor는 단순한 IDE가 아니라 LLM(Claude, GPT 등)이 코드베이스 전
 
 ### 2.1 프로젝트 구조 (Monorepo Layout)
 
-다음과 같은 구조로 GitHub 저장소(`Xformyx/KenventHaus`)를 구성하시면, Cursor가 전체 시스템을 잘 이해하고 개발을 도와줄 수 있습니다.
+다음과 같은 구조로 GitHub 저장소(`Xformyx/KenvestHaus`)를 구성하시면, Cursor가 전체 시스템을 잘 이해하고 개발을 도와줄 수 있습니다.
 
 ```
-KenventHaus/
+KenvestHaus/
 ├── .cursorrules                    # Cursor AI 행동 규칙 정의
 ├── .cursor/
 │   └── mcp.json                    # Cursor에 연결할 MCP 서버 설정

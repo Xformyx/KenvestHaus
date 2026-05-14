@@ -1,4 +1,4 @@
-# web-ui — KenventHaus Web Dashboard
+# web-ui — KenvestHaus Web Dashboard
 
 Next.js + TypeScript + TailwindCSS 기반의 통합 대시보드입니다.
 

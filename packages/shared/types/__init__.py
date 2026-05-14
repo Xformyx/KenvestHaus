@@ -1,4 +1,4 @@
-"""KenventHaus 공통 타입 정의 패키지."""
+"""KenvestHaus 공통 타입 정의 패키지."""
 
 from .signals import (
     SignalType,

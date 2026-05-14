@@ -76,7 +76,7 @@
 
 ## 4. 향후 개발 프로세스 제언
 
-본 설계를 바탕으로 GitHub(`https://github.com/Xformyx/KenventHaus`)에서 소스 관리를 진행하며, 다음 순서로 개발을 권장합니다.
+본 설계를 바탕으로 GitHub(`https://github.com/Xformyx/KenvestHaus`)에서 소스 관리를 진행하며, 다음 순서로 개발을 권장합니다.
 
 1.  **Phase 1 (Data & Infrastructure):** 증권사 API 연동, DB 구축, 텔레그램 봇 껍데기 및 기본 크롤러 개발.
 2.  **Phase 2 (Core Logic & AI):** 지표 계산 로직, 베이지안 신뢰도 모델, Triple-Barrier 청산 로직 구현.

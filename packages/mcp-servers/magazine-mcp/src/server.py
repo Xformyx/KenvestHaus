@@ -117,7 +117,7 @@ def _sample_magazine_skeleton(publish_date: str) -> str:
 | 하락 | - | - | - |
 
 ---
-*이 매거진은 KenventHaus magazine-mcp가 자동 생성한 초안입니다.*
+*이 매거진은 KenvestHaus magazine-mcp가 자동 생성한 초안입니다.*
 """
 
 
